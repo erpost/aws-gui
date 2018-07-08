@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 win = tk.Tk()
-win.title ('First Python GUI')
+win.title ('My Python GUI')
 
 a_label = ttk.Label(win, text="A GUI Label")
 a_label.grid(column=0, row=0)

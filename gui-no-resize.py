@@ -1,7 +1,7 @@
 import tkinter as tk
 
 win = tk.Tk()
-win.title ('First Python GUI')
+win.title ('My Python GUI')
 
 # win.resizable(False, False)
 win.resizable(True, False)
