@@ -1,10 +1,14 @@
 import tkinter as tk
 from tkinter import ttk
 
+# Create instance
 win = tk.Tk()
-win.title ('My Python GUI')
 
-ttk.Label(win, text = 'A GUI Label').grid(column=0, row=0)
+# Add a title
+win.title("Python GUI")
+
+# Adding a Label
+ttk.Label(win, text="A Label").grid(column=0, row=0)
 
 if __name__ == "__main__":
     win.mainloop()
