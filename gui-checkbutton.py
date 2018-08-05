@@ -12,6 +12,7 @@ def click_me():
     action.configure(text='Hello ' + name.get() + ' ' +
                      number_chosen.get())
 
+
 # Changing our Label
 ttk.Label(win, text="Enter a name:").grid(column=0, row=0)
 

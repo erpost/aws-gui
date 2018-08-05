@@ -1,9 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
+from creds import getsession
 
 
 def submit():
-    print(username_entered.get(), ':', mfa_entered.get())
+    getsession(username_entered.get(), mfa_entered.get())
 
 win = tk.Tk()
 win.title('AWS MFA Credentials')
@@ -28,6 +29,7 @@ mfa_entered.focus()
 # Adding a Button
 action = ttk.Button(win, text="Submit", command=submit)
 action.grid(column=3, row=0)
+
 
 if __name__ == "__main__":
     win.mainloop()
